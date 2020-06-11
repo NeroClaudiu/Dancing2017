@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<JailTimeConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Enabled>true</Enabled>
+  <BanOnReconnect>false</BanOnReconnect>
+  <BanOnReconnectTime>3600</BanOnReconnectTime>
+  <JailTimeInSeconds>1440</JailTimeInSeconds>
+  <KillInsteadOfTeleport>false</KillInsteadOfTeleport>
+  <WalkDistance>4</WalkDistance>
+  <Cells>
+    <Cell name="jailseattle" x="-276.03268432617188" y="38.727317810058594" z="-131.8831787109375" />
+    <Cell name="jail2" x="-509.39849853515625" y="40.43499755859375" z="8.6425561904907227" />
+  </Cells>
+</JailTimeConfiguration>

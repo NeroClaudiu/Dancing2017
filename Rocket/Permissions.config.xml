@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RocketPermissions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DefaultGroup>default</DefaultGroup>
+  <Groups>
+    <Group>
+      <Id>default</Id>
+      <DisplayName>Guest</DisplayName>
+      <Prefix />
+      <Suffix />
+      <Color>white</Color>
+      <Members />
+      <Priority>100</Priority>
+      <Permissions>
+        <Permission Cooldown="0">tell</Permission>
+        <Permission Cooldown="0">rules</Permission>
+        <Permission Cooldown="0">compass</Permission>
+        <Permission Cooldown="0">apply</Permission>
+        <Permission Cooldown="0">discord</Permission>
+        <Permission Cooldown="0">crafting</Permission>
+        <Permission Cooldown="0">report</Permission>
+        <Permission Cooldown="0">serverrules</Permission>
+        <Permission Cooldown="0">essentials.command.kit</Permission>
+        <Permission Cooldown="300">essentials.command.back</Permission>
+        <Permission Cooldown="0">essentials.command.kits</Permission>
+        <Permission Cooldown="0">essentials.command.ping</Permission>
+        <Permission Cooldown="0">essentials.command.reply</Permission>
+        <Permission Cooldown="0">essentials.command.warps</Permission>
+        <Permission Cooldown="0">essentials.command.warp</Permission>
+        <Permission Cooldown="0">essentials.warp.arena</Permission>
+        <Permission Cooldown="0">home</Permission>
+        <Permission Cooldown="0">balance</Permission>
+        <Permission Cooldown="0">cost</Permission>
+        <Permission Cooldown="0">buy</Permission>
+        <Permission Cooldown="0">sell</Permission>
+        <Permission Cooldown="0">pay</Permission>
+        <Permission Cooldown="0">exchange</Permission>
+        <Permission Cooldown="0">tpa</Permission>
+        <Permission Cooldown="0">tpa.send</Permission>
+        <Permission Cooldown="0">tpa.accept</Permission>
+        <Permission Cooldown="0">tpa.deny</Permission>
+        <Permission Cooldown="0">tpa.abort</Permission>
+        <Permission Cooldown="0">warnings</Permission>
+        <Permission Cooldown="0">essentials.kit.new</Permission>
+        <Permission Cooldown="0">essentials.kit.base</Permission>
+        <Permission Cooldown="0">essentials.kit.car</Permission>
+        <Permission Cooldown="0">essentials.kit.sky</Permission>
+        <Permission Cooldown="0">eesentials.kit.sea</Permission>
+        <Permission Cooldown="0">essentials.kit.sup</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>helper</Id>
+      <DisplayName>helper</DisplayName>
+      <Prefix />
+      <Suffix />
+      <Color>81D8D0</Color>
+      <Members />
+      <ParentGroup>default</ParentGroup>
+      <Priority>100</Priority>
+      <Permissions>
+        <Permission Cooldown="120">heal</Permission>
+        <Permission Cooldown="0">essentials.kit.helper</Permission>
+        <Permission Cooldown="0">essentials.kit.taxi</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>AdminDance</Id>
+      <DisplayName>AdminDance</DisplayName>
+      <Prefix />
+      <Suffix />
+      <Color>1AF8FF</Color>
+      <Members>
+        <Member>76561198111083016</Member>
+      </Members>
+      <ParentGroup>default</ParentGroup>
+      <Priority>100</Priority>
+      <Permissions>
+        <Permission Cooldown="0">v</Permission>
+        <Permission Cooldown="0">heal</Permission>
+        <Permission Cooldown="0">tp</Permission>
+        <Permission Cooldown="0">tphere</Permission>
+        <Permission Cooldown="10">checkowner</Permission>
+        <Permission Cooldown="0">essentials.kit.party</Permission>
+        <Permission Cooldown="0">essentials.kit.pat</Permission>
+        <Permission Cooldown="0">essentials.kit.HBD</Permission>
+        <Permission Cooldown="0">essentials.kit.sign</Permission>
+        <Permission Cooldown="0">essentials.kit.placard</Permission>
+        <Permission Cooldown="0">essentials.kit.blue</Permission>
+        <Permission Cooldown="0">essentials.kit.red</Permission>
+        <Permission Cooldown="0">God</Permission>
+        <Permission Cooldown="0">antiadminabuse.active</Permission>
+        <Permission Cooldown="0">kick</Permission>
+        <Permission Cooldown="60">listv</Permission>
+        <Permission Cooldown="0">warn</Permission>
+        <Permission Cooldown="0">removewarn</Permission>
+        <Permission Cooldown="0">warns</Permission>
+        <Permission Cooldown="0">mute</Permission>
+        <Permission Cooldown="0">unmute</Permission>
+        <Permission Cooldown="0">jail</Permission>
+        <Permission Cooldown="0">jail.add</Permission>
+        <Permission Cooldown="0">jail.remove</Permission>
+        <Permission Cooldown="0">jail.list</Permission>
+        <Permission Cooldown="0">spy</Permission>
+        <Permission Cooldown="0">jump</Permission>
+        <Permission Cooldown="0">wreck</Permission>
+        <Permission Cooldown="0">wreck.wreck</Permission>
+        <Permission Cooldown="0">wreck.scan</Permission>
+        <Permission Cooldown="0">wreck.teleport</Permission>
+        <Permission Cooldown="5">wreck.*</Permission>
+      </Permissions>
+    </Group>
+    <Group>
+      <Id>AdminDanceHead</Id>
+      <DisplayName>AdminDanceHead</DisplayName>
+      <Prefix />
+      <Suffix />
+      <Color>white</Color>
+      <Members>
+        <Member>76561198165817167</Member>
+        <Member>76561198159116163</Member>
+      </Members>
+      <ParentGroup>AdminDance</ParentGroup>
+      <Priority>100</Priority>
+      <Permissions>
+        <Permission Cooldown="0">Vanish</Permission>
+        <Permission Cooldown="0">antiadminabuse.bypass</Permission>
+        <Permission Cooldown="0">Say</Permission>
+        <Permission Cooldown="0">Broadcast</Permission>
+        <Permission Cooldown="0">duty</Permission>
+        <Permission Cooldown="0">essentials.command.dropkit</Permission>
+        <Permission Cooldown="0">essentials.command.requesturl</Permission>
+        <Permission Cooldown="0">essentials.command.tellraw</Permission>
+        <Permission Cooldown="0">essentials.kit.rebuild</Permission>
+        <Permission Cooldown="0">clearwarninglogs</Permission>
+        <Permission Cooldown="5">w.*</Permission>
+        <Permission Cooldown="0">w.teleport</Permission>
+        <Permission Cooldown="0">w.wreck</Permission>
+        <Permission Cooldown="0">w.scan</Permission>
+      </Permissions>
+    </Group>
+  </Groups>
+</RocketPermissions>
