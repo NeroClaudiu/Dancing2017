@@ -16,7 +16,7 @@
   "EnablePollRunningMessage": true,
   "PollRunningMessageCooldown": 20,
   "ServerFrameRate": -1,
-  "BackDelay": 0,
+  "BackDelay": 1,
   "ItemSpawnLimit": 10,
   "AntiSpam": {
     "Enabled": true,
@@ -32,8 +32,8 @@
     "CancelTeleportWhenMove": false
   },
   "Warp": {
-    "TeleportDelay": 5,
-    "CancelTeleportWhenMove": false,
+    "TeleportDelay": 10,
+    "CancelTeleportWhenMove": true,
     "PerWarpPermission": true
   },
   "VehicleFeatures": {
@@ -149,6 +149,10 @@
   "CommandsToOverride": [],
   "DisabledCommands": [
 	"tpa",
-	"home"
+	"home",
+	"poll",
+	"vote",
+	"ascend",
+	"descend"
 ]
 }
